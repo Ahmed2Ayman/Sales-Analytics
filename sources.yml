@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: raw_superstore
+    database: superstore_db
+    schema: raw
+    tables:
+      - name: superstore_raw
